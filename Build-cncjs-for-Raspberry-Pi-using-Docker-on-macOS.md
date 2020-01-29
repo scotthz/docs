@@ -19,9 +19,18 @@
 	```
 
 ## [Comment cited in #357 regarding build optimization](https://github.com/cncjs/cncjs/issues/437#issuecomment-479995117)
-
+* On Pi:
+ * [ ] npm run clean npm run prebuild-prod npm run build-prod-server
+  * [ ] create symlinks named "cncjs", and "cncjs-server" in
+       /usr/local/bin, referring to /bin/cncjs. Note: if you are using a
+       version prior to cncjs-1.10, you must say build-prod-app instead
+       of build-prod-server above.
+* On PC or Mac:
+npm install
+copy dist/cnc/web/* to the Pi (at /dist/cnc/web)
+The procedure above avoids running eslint, stylint, and test on the Pi, which are time-consuming and redundant.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM5NTgxNDE5LDIxMjg5NTMzMzcsLTUwNT
+eyJoaXN0b3J5IjpbNjY2ODgwNDkxLDIxMjg5NTMzMzcsLTUwNT
 I3MTg0MCwxMzAyODc3NjQ2LC02NzY5ODEzMzFdfQ==
 -->
