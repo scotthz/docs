@@ -6,7 +6,7 @@
   * [ ] Clone the repo
 	  ``` bash
 	  git clone https://github.com/cncjs/cncjs.git
-    ```
+   ```
   * [ ] Build everything using Docker
     ``` bash
     cd cncjs
@@ -20,5 +20,5 @@
 	
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NTMzODYyLC02NzY5ODEzMzFdfQ==
+eyJoaXN0b3J5IjpbMjA0MjcwNjk0OCwtNjc2OTgxMzMxXX0=
 -->
