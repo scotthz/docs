@@ -17,8 +17,10 @@
 	``` bash
 	rsync -av --delete --include='dist/***' --include='node_modules/***' --exclude='*' ./ pi@raspberrypi.local:/home/pi/cncjs/
 	```
-	
+(changed to wip branch)
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMjg3NzY0NiwtNjc2OTgxMzMxXX0=
+eyJoaXN0b3J5IjpbLTUwNTI3MTg0MCwxMzAyODc3NjQ2LC02Nz
+Y5ODEzMzFdfQ==
 -->
