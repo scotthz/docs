@@ -1,6 +1,7 @@
 * Starting point
   [Faster builds on slow machines? #357](https://github.com/cncjs/cncjs/issues/357)
 * Build `cncjs` for Raspberry Pi using Docker on macOS
+  Thes
 
   * [ ] `git clone https://github.com/cncjs/cncjs.git`
   * [ ] Build
@@ -16,5 +17,5 @@
 	
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3Njk4MTMzMV19
+eyJoaXN0b3J5IjpbLTE4NTY5Njk0NzEsLTY3Njk4MTMzMV19
 -->
