@@ -29,8 +29,9 @@
   * [ ] copy `dist/cnc/web/*` to the Pi (at /`dist/cnc/web`)
 
 The procedure above avoids running `eslint`, `stylint`, and `test` on the Pi, which are time-consuming and redundant.
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMzk4ODUyMiwxNzEzOTg4NTIyLDE3Mz
-MzNjUxNjldfQ==
+eyJoaXN0b3J5IjpbLTE2MzA4Mzc5MjgsMTcxMzk4ODUyMiwxNz
+EzOTg4NTIyLDE3MzMzNjUxNjldfQ==
 -->
