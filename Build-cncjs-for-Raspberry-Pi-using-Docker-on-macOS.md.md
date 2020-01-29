@@ -11,10 +11,10 @@
     ```
   * [ ] Copy to Raspberry Pi
 	``` bash
-	rsync -av --delete --include='dist/***' --include='node_modules/***' --exclude='*' ./ pi@v1pi.local:/home/pi/cncjs/
+	rsync -av --delete --include='dist/***' --include='node_modules/***' --exclude='*' ./ pi@raspberrypi.local:/home/pi/cncjs/
 	```
 	
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDU4MzUyMzAsLTQwODMyMTAwOV19
+eyJoaXN0b3J5IjpbLTY3Njk4MTMzMSwtNDA4MzIxMDA5XX0=
 -->
