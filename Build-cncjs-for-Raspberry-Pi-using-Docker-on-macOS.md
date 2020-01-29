@@ -18,7 +18,7 @@
 	rsync -av --delete --include='dist/***' --include='node_modules/***' --exclude='*' ./ pi@raspberrypi.local:/home/pi/cncjs/
 	```
 
-## [Comment cited in #357 regarding build optimization](https://github.com/cncjs/cncjs/issues/437#issuecomment-479995117)
+## [Recipe in comment cited in #357 regarding build optimization](https://github.com/cncjs/cncjs/issues/437#issuecomment-479995117)
 * On Pi:
   * [ ] npm run clean npm run prebuild-prod npm run build-prod-server
   * [ ] create symlinks named `cncjs`, and `cncjs-server` in `/usr/local/bin`, referring to `/bin/cncjs`.
@@ -29,6 +29,6 @@
 The procedure above avoids running `eslint`, `stylint`, and `test` on the Pi, which are time-consuming and redundant.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MTY5NDA1NCwyMTI4OTUzMzM3LC01MD
+eyJoaXN0b3J5IjpbMTgwNzQ4MDI1MywyMTI4OTUzMzM3LC01MD
 UyNzE4NDAsMTMwMjg3NzY0NiwtNjc2OTgxMzMxXX0=
 -->
