@@ -2,6 +2,12 @@
 
 * Build `cncjs` for Raspberry Pi using Docker on macOS
   These are the fundamental steps. Not optimized, e.g. to build everything but `serialport` natively on macOS, and build just `serialport` in an `arm32v7` container (or on the RPi). As a result, the build, in an emulated ARM container, takes a long time, but still said to be shorter than building on the Pi itself.
+  The Gamma function satisfying $\Gamma(n) = (n-1)!\quad\forall
+n\in\mathbb N$ is via the Euler integral
+
+$$
+\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
+$$
 
   * [ ] Clone the repo
 	``` bash
@@ -31,5 +37,6 @@
 The procedure above avoids running `eslint`, `stylint`, and `test` on the Pi, which are time-consuming and redundant.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMzk4ODUyMiwxNzMzMzY1MTY5XX0=
+eyJoaXN0b3J5IjpbNzU2MDI4MDU3LDE3MTM5ODg1MjIsMTczMz
+M2NTE2OV19
 -->
