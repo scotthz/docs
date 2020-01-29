@@ -1,5 +1,5 @@
-* [Faster builds on slow machines? #357](https://github.com/cncjs/cncjs/issues/357)
-* [Comment cited in #357 regarding build optimization](https://github.com/cncjs/cncjs/issues/437#issuecomment-479995117)
+## [Faster builds on slow machines? #357](https://github.com/cncjs/cncjs/issues/357)
+
 * Build `cncjs` for Raspberry Pi using Docker on macOS
   These are the fundamental steps. Not optimized, e.g. to build everything but `serialport` natively on macOS, and build just `serialport` in an `arm32v7` container (or on the RPi).
 
@@ -17,10 +17,11 @@
 	``` bash
 	rsync -av --delete --include='dist/***' --include='node_modules/***' --exclude='*' ./ pi@raspberrypi.local:/home/pi/cncjs/
 	```
-(changed to wip branch)
+
+## [Comment cited in #357 regarding build optimization](https://github.com/cncjs/cncjs/issues/437#issuecomment-479995117)
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzUwNjMyNjMsMjEyODk1MzMzNywtNT
-A1MjcxODQwLDEzMDI4Nzc2NDYsLTY3Njk4MTMzMV19
+eyJoaXN0b3J5IjpbNjM5NTgxNDE5LDIxMjg5NTMzMzcsLTUwNT
+I3MTg0MCwxMzAyODc3NjQ2LC02NzY5ODEzMzFdfQ==
 -->
