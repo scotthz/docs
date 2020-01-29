@@ -14,10 +14,7 @@
 	rsync -av --delete --include='dist/***' --include='node_modules/***' --exclude='*' ./ pi@v1pi.local:/home/pi/cncjs/
 	```
 	
-
-    enter code here
-
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE5ODA1MTMsLTQwODMyMTAwOV19
+eyJoaXN0b3J5IjpbLTExNDU4MzUyMzAsLTQwODMyMTAwOV19
 -->
