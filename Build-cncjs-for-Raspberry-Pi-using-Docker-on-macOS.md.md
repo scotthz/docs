@@ -10,8 +10,14 @@
     docker run -v $PWD:/cncjs -w /cncjs arm32v7/node:8.15.1 npm install --unsafe-perm
     ```
   * [ ] Copy to Raspberry Pi
+	``` bash
+	rsync -av --delete --include='dist/***' --include='node_modules/***' --exclude='*' ./ pi@v1pi.local:/home/pi/cncjs/
+	```
+	
+
+    enter code here
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwODMyMTAwOV19
+eyJoaXN0b3J5IjpbODE5ODA1MTMsLTQwODMyMTAwOV19
 -->
