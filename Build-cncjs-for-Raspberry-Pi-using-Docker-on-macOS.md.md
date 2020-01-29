@@ -4,7 +4,6 @@
 
   * [ ] `git clone https://github.com/cncjs/cncjs.git`
   * [ ] Build
-
     ``` bash
     cd cncjs
     npm run clean
@@ -14,5 +13,5 @@
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDc0NjY1MjddfQ==
+eyJoaXN0b3J5IjpbLTQwODMyMTAwOV19
 -->
