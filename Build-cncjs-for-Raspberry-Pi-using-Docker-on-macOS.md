@@ -22,15 +22,14 @@
 * On Pi:
  * [ ] npm run clean npm run prebuild-prod npm run build-prod-server
   * [ ] create symlinks named "cncjs", and "cncjs-server" in
-       /usr/local/bin, referring to /bin/cncjs. Note: if you are using a
-       version prior to cncjs-1.10, you must say build-prod-app instead
-       of build-prod-server above.
+       /usr/local/bin, referring to /bin/cncjs.
 * On PC or Mac:
-npm install
-copy dist/cnc/web/* to the Pi (at /dist/cnc/web)
+  * [ ] npm install
+  * [ ] copy dist/cnc/web/* to the Pi (at /dist/cnc/web)
+
 The procedure above avoids running eslint, stylint, and test on the Pi, which are time-consuming and redundant.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY2ODgwNDkxLDIxMjg5NTMzMzcsLTUwNT
-I3MTg0MCwxMzAyODc3NjQ2LC02NzY5ODEzMzFdfQ==
+eyJoaXN0b3J5IjpbMTc0NTQ2MjY3OCwyMTI4OTUzMzM3LC01MD
+UyNzE4NDAsMTMwMjg3NzY0NiwtNjc2OTgxMzMxXX0=
 -->
