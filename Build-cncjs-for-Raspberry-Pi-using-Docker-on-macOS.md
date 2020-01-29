@@ -4,9 +4,8 @@
   These are the fundamental steps. Not optimized, e.g. to build everything but `serialport` natively on macOS, and build just `serialport` in an `arm32v7` container (or on the RPi).
 
   * [ ] Clone the repo
-	  ``` bash
-	  git clone https://github.com/cncjs/cncjs.git
-   ```
+  * [ ] `	  git clone https://github.com/cncjs/cncjs.git
+`
   * [ ] Build everything using Docker
     ``` bash
     cd cncjs
@@ -20,5 +19,5 @@
 	
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MjcwNjk0OCwtNjc2OTgxMzMxXX0=
+eyJoaXN0b3J5IjpbLTIwNTEzMTg3OTYsLTY3Njk4MTMzMV19
 -->
