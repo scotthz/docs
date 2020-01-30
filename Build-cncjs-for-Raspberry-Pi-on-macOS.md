@@ -1,3 +1,4 @@
+---
 ## [Faster builds on slow machines? #357](https://github.com/cncjs/cncjs/issues/357)
 
 * Build `cncjs` for Raspberry Pi using Docker on macOS
@@ -17,7 +18,7 @@
 	``` bash
 	rsync -av --delete --include='dist/***' --include='node_modules/***' --exclude='*' ./ pi@raspberrypi.local:/home/pi/cncjs/
 	```
-
+---
 ## [Recipe in comment cited in #357 regarding build optimization](https://github.com/cncjs/cncjs/issues/437#issuecomment-479995117)
 * On Pi:
   * [ ] `npm run clean npm`
@@ -32,6 +33,6 @@ The procedure above avoids running `eslint`, `stylint`, and `test` on the Pi, wh
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzA4Mzc5MjgsMTcxMzk4ODUyMiwxNz
-EzOTg4NTIyLDE3MzMzNjUxNjldfQ==
+eyJoaXN0b3J5IjpbLTQ0Mjk3NTkwLC0xNjMwODM3OTI4LDE3MT
+M5ODg1MjIsMTcxMzk4ODUyMiwxNzMzMzY1MTY5XX0=
 -->
