@@ -22,7 +22,7 @@ See _section f_, page 10 of `PPP--IFRN FINAL.pdf`.
 ### Excluded costs (applicable)
 
 * $100,000 individual limit, annual.
-* _Federal_ employment taxes imposed between 2/15/20 and 6/31/20, including income tax withholding, employee and employer FICA, etc. **NOTE** These amounts affect what comprises _payroll costs_ when it comes to accounting expenditures from the loan funds, they are **not** used to calculate the maximum loan amount (something paid in the future can't be excluded from a calculation based on payments paid in the past).
+* _Federal_ employment taxes imposed between 2/15/20 and 6/31/20, including income tax withholding, employee and employer FICA, etc. **NOTE** These amounts affect what comprises _payroll costs_ when it comes to accounting expenditures from the loan proceeds, they are **not** used to calculate the maximum loan amount (something paid in the future can't be excluded from a calculation based on payments paid in the past).
 * Assuming EIDL and FFCRA are N/A.
 
 ### Calculation
